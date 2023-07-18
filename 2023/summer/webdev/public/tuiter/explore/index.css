@@ -36,7 +36,7 @@
 /* Researched from Stack Overflow https://stackoverflow.com/questions/71112954/search-bar-with-magnifying-glass-inside-using-css */
 input.wd-search-icon {
     /* padding: 9px 4px 9px 4px; */
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/55/Magnifying_glass_icon.svg");
+    background-image: url("../icons/mag-glass.svg");
     background-size: 13px;
     background-repeat: no-repeat;
     background-position: 10px center;
@@ -45,9 +45,12 @@ input.wd-search-icon {
 input[type="wd-search"] {
     border: none;
     margin: 0;
-    padding: 7px 8px 7px 30px;
     font-size: 16px;
     margin: 15px;
+}
+
+.search-padding {
+    padding: 7px 8px 7px 30px;
 }
 
 .wd-top-right {
@@ -88,7 +91,7 @@ ul.wd-tabs-bar>li.wd-active {
 
 .wd-push-up {
     position: relative;
-    bottom: 60px;
+    bottom: 45px;
     left: 10px;
 }
 
